@@ -17,18 +17,31 @@ main h1{
 }
 
 nav li{
+    text-align: center;
     color: #3f3f40;
-    font-size: large;
+    font-size: larger;
     
 }
-
-fotocurriculo  {
-    width: ;
+.icones{
+    background-color: black;
+    flex-direction: column;
     
     
 }
+.icone{
+    margin-top: 200px;
+    width: 100px;
+    flex-direction: column-reverse;
+}
+.informações{
+    /* margin-top: 30px; */
+    /* text-align: center; */
+   
+}
 
-#perfil{
+.perfil{
+    margin-bottom: 100px;
+    width: 300px;
     position: absolute;
     left: 00% ;
     top:00% ;
