@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Aula 1 - HTML</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="r.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1 - HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="r.css">
+</head>
 
-    <body>
-        <header>
-            
-            <nav >
-                <ul>
-                    <li> <a href="#">CURRICULO </a> </li>
-                    
-                </ul>
-            </nav>
-        </header>
-        
-        <main>
-            <section class="informações">
-                <h1>Patrick Vinicius Coelho Lima </h1> 
-                <ul>
-                    <li> 
-                        <a href="https://github.com/Patricksenai">
-                            <img class="icone" src="github-logo-24.png" alt="Logo do Github">
-                        </a>
-                    </li>
-                    <li><a href="">
-                             <img class="icone"   src="endereço.png" alt="Logo do LinkedIn">
-                         </a>
-                    </li>
-                </ul>                                                                                                           
-                <p>Contato</p>
-                <p>Professor BackEnd SENAI</p>
-                <p>Professor FrontEnd SENAI</p>
-            </section>
-            
-            <div>
-            
-            <img src="fotocurriculo.jpg"   alt="Foto para curriculo" class="perfil"
-            <div class="icones">
-                
-            <a href="">
-                <img class="icone"   src="endereço.png" alt="Logo do LinkedIn">
-            </a>
-            <a href="https://www.instagram.com">
-                <img class="icone"  src="instagram-logo-24.png" alt="Logo do Instagram">
-            </a>
+<body>
+
+    <div id="container_principal">
+        <div class="perfil">
+            <div class="imagem_perfil">
+                <img src="fotocurriculo.jpg" alt="Foto de perfil">
+            </div>
+            <div class="conteudo_perfil">
+                <div class="contatos">
+                    <h1 class="titulo">Contato</h1>
+                    <div class="lista_icones">
+                        <div class="contato">
+                            <img src="contato.png" alt="">
+                            <p>24988181676</p>
+                        </div>
+                        <div class="endereco">
+                            <img src="endereço.png" alt="">
+                            <p>Rua petrick 157</p>
+                        </div>
+                        <ul class="lista">
+                            <li><a href="#"><img src="github-logo-24.png" alt=""></a></li>
+                            <li><a href="#"><img src="instagram-logo-24.png" alt=""></a></li>
+                            <li><a href="#"><img src="linkedin-square-logo-24.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="informacoes_principais">
+            <header id="cabecalho">
+                <h1>Patrick Vinicius Coelho Lima </h1>
+                <h3>Desenvolvedor <span>Full-stack</span></h3>
+            </header>
+            <main id="conteudo_principal">
+                <div class="experiencia">
+                    <h1>Experiência Profissional</h1>
+                    <div class="conteudo_exp">
+                        <h2>Instituto Nacional de Seguro Social</h2>
+                        <p>2021 - 2024</p>
+                        <h4>Suporte, Manutenção de computadores, Redes.</h4>
+                    </div>
+                </div>
+                <div class="formacao">
+                    <h1>Formação</h1>
+                    <div class="escola">
+                        <h2>Dom Pedro II</h2>
+                        <h4>Ensino Médio Completo - 2017</h4>
+                    </div>
+                    <div class="faculdade">
+                        <h2>Universidade São Francisco</h2>
+                        <h4>Gestão da Tecnologia da Informação (2022-2024)</h4>
+                    </div>
+                </div>
+            </main>
         </div>
     </div>
-        </main>
 
-        <footer>
-            <h2>Desenvolvido pela turma de FrontEnd SENAI</h2>
-        </footer>
-
-    </body>
+</body>
 
 </html>

@@ -1,48 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
-    background-color: #b6bdb6;
+    height: 100vh;
 }
-header {
+
+#container_principal {
+    display: flex;
     width: 100%;
-    background-color: #688daa;
-}
-header h1 {
-    text-align: center;
-    color: #000000
-}
-main h1{
-    
-    text-align: center;
-    color: black;
-    
 }
 
-nav li{
-    text-align: center;
-    color: #3f3f40;
-    font-size: larger;
-    
+.perfil {
+    background-color: #003554;
+    width: 25%;
+    border-right: 2px solid #ffffff;
 }
-.icones{
-    background-color: black;
+
+.imagem_perfil img{
+    width: 100%;
+}
+
+.conteudo_perfil {
+    color: #ffffff;
+}
+
+.contatos .titulo{
+    color: #ffffff;
+    padding: 10px 30px ;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.lista_icones {
+    display: flex;
     flex-direction: column;
-    
-    
-}
-.icone{
-    margin-top: 200px;
-    width: 100px;
-    flex-direction: column-reverse;
-}
-.informações{
-    /* margin-top: 30px; */
-    /* text-align: center; */
-   
+    gap: 20px;
+
 }
 
-.perfil{
-    margin-bottom: 100px;
-    width: 300px;
-    position: absolute;
-    left: 00% ;
-    top:00% ;
+.lista_icones .contato {
+    display: flex;
+    padding: 0 45px;
+}
+
+.lista_icones .contato img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.lista_icones .endereco {
+    display: flex;
+    padding: 0 45px;
+}
+
+.lista_icones .endereco img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.lista_icones .lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lista_icones .lista img{
+    width: 40px;
+}
+
+.informacoes_principais {
+    width: 75%;
+    background-color: #d4d4d4;
+}
+
+/* Main */
+.informacoes_principais{
+    padding: 20px 50px;
+
+}
+#cabecalho h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+#cabecalho h3{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+#cabecalho span{
+    color: #006494;
+    font-weight: 800;
+
+}
+.experiencia h1{
+    margin:50px 0 20px 0 ;
 }
